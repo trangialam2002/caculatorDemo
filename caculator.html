@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{margin:0;padding:0;}
+    .list_item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .list_item .item {
+        width: 25%;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    button.item:hover {
+        background: #00ffff26;
+        border: 1px solid #00ffff26;
+    }
+    
+    .list_item .item:first-child {
+        width: 50%;
+    }
+    
+    .screen {
+        height: 50px;
+        text-align: right;
+        font-size: 38px;
+        padding-right: 5px;
+    }
+    
+    .box {
+        width: 270px;
+        height: 300px;
+        margin: 50px auto 0;
+        background: #ececec;
+        border-radius: 5px;
+    }
+</style>
+<body>
+    <div class="box">
+        <div class="screen">0</div>
+        <div class="list_item">
+            <button class="item">AC</button>
+            <button class="item">DEL</button>
+            <button class="item">+</button>
+            <button class="item">7</button>
+            <button class="item">8</button>
+            <button class="item">9</button>
+            <button class="item">-</button>
+            <button class="item">4</button>
+            <button class="item">5</button>
+            <button class="item">6</button>
+            <button class="item">*</button>
+            <button class="item">1</button>
+            <button class="item">2</button>
+            <button class="item">3</button>
+            <button class="item">/</button>
+            <button class="item">0</button>
+            <button class="item">ANS</button>
+            <button class="item">.</button>
+            <button class="item">=</button>
+        </div>
+    </div>
+</body>
+<script src="caculator.js"></script>
+</html>
